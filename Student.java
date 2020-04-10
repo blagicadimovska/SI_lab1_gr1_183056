@@ -2,6 +2,8 @@ class Student {
 	String index;
 	String firstName;
 	String lastName;
+        SLL<Integer> labPoints;
+        
 
 	//TODO constructor
 
