@@ -2,7 +2,7 @@ class Student {
 	String index;
 	String firstName;
 	String lastName;
-	SLL<Integer> labPoints;
+	List<Integer> labPoints;
 
 
 	//TODO constructor
@@ -27,7 +27,7 @@ class Student {
 	public String getLastName(){
 		return this.lastName;
 	}
-	
+
 
 
 	public double getAverage() {
@@ -37,4 +37,16 @@ class Student {
 	public boolean hasSignature() {
 		//TODO
 	}
+}
+
+class Course {
+	List<Student> Studenti;
+
+	public double Average() {
+		
+	}
+	public boolean Signature() {
+		
+	}
+	
 }
